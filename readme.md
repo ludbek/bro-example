@@ -1,7 +1,7 @@
 An example project template.
 
 ## Requirements
-### (bro)[https://github.com/ludbek/bro]
+### [bro](https://github.com/ludbek/bro)
 ### tmux
 ### Mac
 `brew install tmux`
