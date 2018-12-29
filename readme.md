@@ -1,11 +1,11 @@
 An example project template.
 
 ## Requirements
-### [bro](https://github.com/ludbek/bro)
-### tmux
-### Mac
+### 1. [bro](https://github.com/ludbek/bro)
+### 2. tmux
+### 2.1. Mac
 `brew install tmux`
-### Ubuntu
+### 2.2. Ubuntu
 `sudo apt-get install tmux`
 
 ## Usage
