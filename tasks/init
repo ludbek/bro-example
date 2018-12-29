@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# uncomments the lines below if the apps are
+# installed in your machine
+# firefox &
+# slack &
+
+# $project is injected by Bro
+structure $project
+	window editor
+		run 'vi'
+	window terminal
+		run 'echo Happy hacking ...'
+	window services
+		vsplit
+			run 'echo Run a service'
+		pane right
+			run 'echo Run another service'
+
+focus editor
+connect $project
+
